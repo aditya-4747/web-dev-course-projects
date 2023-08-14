@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.heading {
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  margin: 5%;
+}
+
+.main-container {
+  display: block;
+  margin-top: 75px;
+}
+
+.box {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px black solid;
+  border-radius: 20%;
+  margin: 25px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
