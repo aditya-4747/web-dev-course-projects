@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(40, 36, 36);
+}
+
+.main-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.dice-main, .copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.dice-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 350px;
+}
+
+.left-dice {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.right-dice {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.text {
+    color: rgb(42, 193, 193);
+}
